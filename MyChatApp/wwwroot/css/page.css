@@ -1,0 +1,186 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  width: 7vw;
+  height: 100vh;
+  background-color: #1266f1;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .avatar {
+  margin: 10px auto;
+}
+.sidebar .room-button {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #4496d8;
+  text-align: center;
+  margin-top: 10px;
+}
+.sidebar .room-button:hover {
+  background-color: #7cbbee;
+}
+.sidebar .active {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #7cbbee;
+  text-align: center;
+  margin-top: 10px;
+}
+.sidebar .room-button i {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.main {
+  width: 93vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.main .create-post {
+  width: 84vw;
+  height: 25vh;
+  background-image: linear-gradient(to right, rgba(142, 167, 236, 0.568), rgb(106, 165, 241));
+  border-radius: 10px;
+}
+.main .container .list-post {
+  width: 84vw;
+  height: 67vh;
+}
+.main .navbar {
+  margin: 0;
+  padding: 10px 0px;
+  width: 21vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+.main .navbar .navbar-top {
+  width: 21vw;
+  height: 10vh;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+.main .navbar .navbar-top .search {
+  flex-grow: 5;
+  margin: 0 5px;
+}
+.main .navbar .navbar-top .add-room {
+  flex-grow: 1;
+}
+.main .navbar .navbar-top .add-room button i {
+  font-size: 15px;
+}
+.main .navbar .navbar-bottom {
+  width: 21vw;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+}
+.main .navbar .navbar-bottom .title p {
+  font-weight: bold;
+  margin-left: 4px;
+}
+.main .navbar .navbar-bottom .list-group-friend {
+  overflow: auto;
+}
+.main .navbar .navbar-bottom .list-group h5 {
+  color: black;
+  font-weight: normal;
+}
+.main .chat {
+  margin: 0;
+  padding: 10px 0px;
+  width: 72vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.main .chat .chat-top {
+  width: 72vw;
+  height: 10vh;
+  background-color: white;
+}
+.main .chat .chat-body {
+  width: 72vw;
+  height: 79vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  overflow: auto;
+  background-color: rgb(226, 226, 226);
+}
+.main .chat .chat-body .message {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.2rem;
+}
+.main .chat .chat-body .message:first-child {
+  margin-top: auto;
+}
+.main .chat .chat-body .message > * {
+  padding: 0.2rem;
+}
+
+.main .chat .chat-body .message > header {
+  font-weight: bold;
+  min-width: 100px;
+  text-align: right;
+}
+.main .chat .chat-body .message > p {
+  margin: 0;
+  flex-grow: 5;
+}
+.main .chat .chat-body .message > footer {
+  min-width: 60px;
+  text-align: center;
+}
+.main .chat .chat-bottom {
+  width: 72vw;
+  height: 11vh;
+}
+.main .chat .chat-bottom button span {
+  font-size: 22px;
+}
+.icon-friend {
+  margin-top: 10px;
+}
+.icon-friend i {
+  font-size: 30px;
+}
+.chat .chat-top .icon-friend i {
+  font-size: 45px;
+  color: #1266f1;
+}
+.list-make-friends {
+  overflow: auto;
+}
+.list-make-friends .card img {
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+}

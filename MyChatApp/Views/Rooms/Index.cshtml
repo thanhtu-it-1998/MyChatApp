@@ -1,0 +1,263 @@
+﻿@{
+    ViewData["Title"] = ViewData["Title"];
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="navbar shadow">
+    <div class="navbar-top">
+        <div class="search">
+            <input type="text" placeholder="Search user of telphone" class="form-control rounded-pill">
+        </div>
+        <div class="add-room">
+            <a class="btn btn-primary">
+                <i class="fas fa-user-plus"></i>
+            </a>
+        </div>
+    </div>
+    <div class="navbar-bottom">
+        <div class="title">
+            <p>Chat</p>
+        </div>
+        <ul class="list-group mb-3">
+            <li class="list-group-item">
+                <a asp-controller="Rooms" asp-action="Friends" >
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <div class="icon-friend mt-4 mx-3">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Make friends</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li class="list-group-item">
+                <a asp-controller="Rooms" asp-action="Groups" >
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <div class="icon-friend mt-4 mx-3">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Groups </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+        </ul>
+        <div class="title">
+            <p>List friends ( <span>9</span> )</p>
+        </div>
+        <ul class="list-group list-group-friend">
+
+            <li class="list-group-item">
+                <a href="">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="https://github.com/mdo.png" width="42" height="42"
+                                     class="rounded-circle mt-3 " alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Last updated 3 mins
+                                            ago
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li class="list-group-item">
+                <a href="">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="https://github.com/mdo.png" width="42" height="42"
+                                     class="rounded-circle mt-3 " alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Last updated 3 mins
+                                            ago
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li class="list-group-item">
+                <a href="">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="https://github.com/mdo.png" width="42" height="42"
+                                     class="rounded-circle mt-3 " alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Last updated 3 mins
+                                            ago
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li class="list-group-item">
+                <a href="">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="https://github.com/mdo.png" width="42" height="42"
+                                     class="rounded-circle mt-3 " alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Last updated 3 mins
+                                            ago
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li class="list-group-item">
+                <a href="">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="https://github.com/mdo.png" width="42" height="42"
+                                     class="rounded-circle mt-3 " alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Last updated 3 mins
+                                            ago
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li class="list-group-item">
+                <a href="">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="https://github.com/mdo.png" width="42" height="42"
+                                     class="rounded-circle mt-3 " alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Last updated 3 mins
+                                            ago
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li class="list-group-item">
+                <a href="">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="https://github.com/mdo.png" width="42" height="42"
+                                     class="rounded-circle mt-3 " alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Last updated 3 mins
+                                            ago
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+            <li class="list-group-item">
+                <a href="">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <img src="https://github.com/mdo.png" width="42" height="42"
+                                     class="rounded-circle mt-3 " alt="">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            Last updated 3 mins
+                                            ago
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="chat">
+ @RenderBody()
+</div>
